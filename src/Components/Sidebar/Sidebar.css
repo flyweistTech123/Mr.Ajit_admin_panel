@@ -43,9 +43,7 @@
   width: auto;
   height: auto;
   background-color: #ffa5000d;
-  box-shadow: 0px 2px 4px 0px #0000000a;
-  box-shadow: 0px 32px 13px 0px #00000003;
-  box-shadow: 0px 50px 14px 0px #00000000;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 16px 40px 16px 40px;
   display: flex;
   align-items: center;
@@ -63,12 +61,15 @@
   width: auto;
   height: auto;
   background: #ffffff;
-  box-shadow: 0px 2px 4px 0px #0000000a;
-  box-shadow: 0px 32px 13px 0px #00000003;
-  box-shadow: 0px 50px 14px 0px #00000000;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 16px 40px 16px 40px;
   border-radius: 8px;
   display: flex;
   align-items: center;
   color: #9aa3af;
+}
+
+
+.sidebar-link:hover {
+  border-left: 6px solid #9AA3AF;
 }

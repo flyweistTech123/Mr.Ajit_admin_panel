@@ -1,0 +1,18 @@
+.kyc{
+    display: flex;
+    align-items: center;
+}
+
+
+.kyc1{
+    width: auto;
+    height: auto;
+    padding: 8px 16px 8px 16px;
+    border-radius: 9px;
+    font-family: "Lexend", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.73px;
+    color: #FFFFFF;
+    margin: 0;
+}

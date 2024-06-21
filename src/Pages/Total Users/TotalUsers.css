@@ -1,0 +1,140 @@
+.totalusers2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.totalusers3 {
+  width: auto;
+  height: auto;
+  padding: 5px 12px 5px 12px;
+  border-radius: 4px;
+  background: #febf05;
+  border: 1px solid #febf05;
+}
+
+.totalusers3 h6 {
+  font-family: "Public Sans", sans-serif;
+  font-size: 19.78px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.totalusers4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.totalusers5 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.totalusers5 h6 {
+  font-family: "Public Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #202224;
+  margin: 0;
+}
+
+.totalusers6 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.totalusers7 {
+  width: auto;
+  height: auto;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  background: #fcfdfd;
+  border: 0.6px solid #d5d5d5;
+  display: flex;
+  align-items: center;
+}
+
+.totalusers7 input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.totalusers7 input::placeholder {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  color: #2b303466;
+  margin: 0;
+}
+
+.totalusers8 {
+}
+
+.totalusers8 select {
+  width: auto;
+  height: auto;
+  padding: 8px 12px 8px 16px;
+  border-radius: 4px;
+  background: #fcfdfd;
+  border: 0.6px solid #d5d5d5;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  color: #2b303466;
+  margin: 0;
+  outline: none;
+}
+
+
+
+.totalusers9 {
+  margin-top: 40px;
+}
+
+.totalusers10 {
+  width: 100%;
+  overflow-x: auto; 
+}
+
+.totalusers10 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.totalusers10 table thead {
+    background: #F1F4F9;
+}
+
+.totalusers10 table th,
+.totalusers10 table td {
+  padding: 12px;
+  text-align: left;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #202224;
+}
+
+.totalusers10 table tbody tr {
+  height: 50px; 
+}
+
+.totalusers10 table tbody td {
+  font-weight: 600;
+}
+
+.totalusers10 table tbody tr:hover {
+  background-color: #e0dede;
+}

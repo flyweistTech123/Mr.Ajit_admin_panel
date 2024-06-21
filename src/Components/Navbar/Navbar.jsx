@@ -13,7 +13,7 @@ const Navbar = ({ toggleSidebar }) => {
             <div className='navbar'>
                 <div className='navbar1'>
                     <div className='navbar2'>
-                        <BsFilterRight onClick={toggleSidebar} size={25} color='#FFFFFF' />
+                        <BsFilterRight onClick={toggleSidebar} size={25} color='#00000' />
                         <h6>Dashboard</h6>
                     </div>
                     <div className='navbar3'>

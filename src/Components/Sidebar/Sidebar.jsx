@@ -69,7 +69,7 @@ const Sidebar = ({ toggleSidebar }) => {
         <>
             <div className='sidebar'>
                 <div className="sidebar3">
-                    <TbIndentDecrease color="#FFFFFF" size={25} onClick={toggleSidebar} />
+                    <TbIndentDecrease color="#00000" size={25} onClick={toggleSidebar} />
                 </div>
                 <div className='sidebar1'>
                     {sidebarItems.map((item, index) => (
