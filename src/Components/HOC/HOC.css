@@ -17,6 +17,8 @@
 .child-component {
   flex: 1;
   padding: 20px;
+  /* box-shadow: 6px 6px 54px 0px #0000000D; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .sidebar55-hidden .content {

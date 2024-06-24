@@ -112,7 +112,7 @@ const KYC = () => {
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td><MdRemoveRedEye color='#1C1B1F' size={20} /></td>
+                                            <td className='totalusers11'><MdRemoveRedEye color='#1C1B1F' size={20}   onClick={()=>navigate('/kycdetails')}/></td>
                                         </tr>
                                     ))}
                                 </tbody>

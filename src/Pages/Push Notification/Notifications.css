@@ -1,0 +1,85 @@
+.notification{
+
+}
+
+
+.notification1{
+    width: auto;
+    height: auto;
+    padding: 5px 12px 5px 12px;
+    border-radius: 4px;
+    background-color: #2E4658;
+    cursor: pointer;
+}
+
+
+.notification1 p{
+    font-family: "Public Sans", sans-serif;
+    font-size: 19.78px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+
+.notification4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.notification4 label{
+    font-family: "Mulish", sans-serif;
+    font-size: 19.78px;
+    font-weight: 700;
+    line-height: 24.83px;
+    color: #7F898B;
+    margin: 0;
+}
+
+
+.notification4 input{
+    width: 100%;
+    height: 47.61px;
+    background: #2a8bd440;
+    border-radius: 11.31px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.notification4 input::placeholder{
+    font-family: "Mulish", sans-serif;
+    font-size: 15.78px;
+    font-weight: 500;
+    line-height: 24.83px;
+    color: #7F898B;
+    margin: 0;
+}
+
+
+
+.notification5{
+    width: 100%;
+    height: 213px;
+    border-radius: 11.31px;
+    background: #2a8bd440;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.notification5 p{
+    font-family: "Mulish", sans-serif;
+    font-size: 19.78px;
+    font-weight: 600;
+    line-height: 24.83px;
+    color: #7F898B;
+    margin: 0;
+}

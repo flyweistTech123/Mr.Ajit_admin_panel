@@ -11,6 +11,7 @@
   border-radius: 4px;
   background: #febf05;
   border: 1px solid #febf05;
+  cursor: pointer;
 }
 
 .totalusers3 h6 {
@@ -96,15 +97,13 @@
   outline: none;
 }
 
-
-
 .totalusers9 {
   margin-top: 40px;
 }
 
 .totalusers10 {
   width: 100%;
-  overflow-x: auto; 
+  overflow-x: auto;
 }
 
 .totalusers10 table {
@@ -113,7 +112,7 @@
 }
 
 .totalusers10 table thead {
-    background: #F1F4F9;
+  background: #f1f4f9;
 }
 
 .totalusers10 table th,
@@ -128,7 +127,7 @@
 }
 
 .totalusers10 table tbody tr {
-  height: 50px; 
+  height: 50px;
 }
 
 .totalusers10 table tbody td {
@@ -137,4 +136,181 @@
 
 .totalusers10 table tbody tr:hover {
   background-color: #e0dede;
+}
+
+.totalusers11 {
+  cursor: pointer;
+}
+
+/* UserDetail */
+
+.userdetails {
+}
+
+.userdetails1 {
+  margin-top: 50px;
+}
+
+.userdetails2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userdetails3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userdetails4 {
+  width: 79px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.userdetails4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.userdetails5 {
+}
+
+.userdetails5 h6 {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  color: #000000;
+  margin: 0;
+}
+
+.userdetails5 p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  color: #09b006;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.userdetails6 {
+}
+
+.userdetails6 button {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #00f076;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 17.73px;
+  color: #ffffff;
+  margin: 0;
+}
+
+
+.userdetails7{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.userdetails8 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.userdetails8 label {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: #000000;
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+
+
+.userdetails8 input{
+  width: 100%;
+  height: 36px;
+  border-radius: 5px;
+  background: #F9FAFB;
+  border: 1px solid #DADADA;
+  outline: none;
+  padding-left: 10px;
+}
+
+
+
+
+
+.userdetails9{
+  margin-top: 20px;
+}
+
+
+
+.userdetails10{
+  width: auto;
+  height: auto;
+  padding: 20px;
+  background-color: #F1F4F9;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.userdetails11{
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.userdetails11 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: #000000;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+
+.userdetails12{
+  cursor: pointer;
+}
+
+.userdetails12 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: #000000;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+
+
+
+.userdetails14{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
 }

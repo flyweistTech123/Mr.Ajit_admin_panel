@@ -46,7 +46,7 @@ const Sidebar = ({ toggleSidebar }) => {
         },
         {
             text: 'Push Notification',
-            link: '/notifications',
+            link: '/push_notification',
             icon: <IoMdNotificationsOutline size={23} />
         },
         {
