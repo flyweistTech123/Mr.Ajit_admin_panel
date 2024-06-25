@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Wallet.css'
 import HOC from '../../Components/HOC/HOC'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 import { useNavigate } from 'react-router-dom';
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosSearch } from "react-icons/io";
@@ -88,6 +90,19 @@ const Walletmamagement = () => {
             PaymentStatus: "Completed",
         }
     ]
+
+
+
+    const renderTooltip = (props) => (
+        <Tooltip id="button-tooltip" {...props} >
+            <div className='kyc7'>
+                <p>Holder Name: John Due<br/>
+                    Account no. :- 1234567896541<br/>
+                    IFSC Code:- 145258622
+                </p>
+            </div>
+        </Tooltip>
+    );
 
     return (
         <>
@@ -283,7 +298,17 @@ const Walletmamagement = () => {
                                                         <td>{data.DateTime}</td>
                                                         <td>{data.TransactionID}</td>
                                                         <td>{data.Amount}</td>
-                                                        <td>{data.PaymentMode}</td>
+
+                                                        <td>
+                                                            <OverlayTrigger
+                                                                placement="top"
+                                                                delay={{ show: 250, hide: 400 }}
+                                                                overlay={renderTooltip}
+                                                            >
+                                                                <p>{data.PaymentMode}</p>
+                                                            </OverlayTrigger>
+                                                        </td>
+
                                                         <td style={{ color: "#09B006" }}>
                                                             {data.PaymentStatus}
                                                         </td>

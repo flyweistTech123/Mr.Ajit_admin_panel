@@ -52,7 +52,7 @@ const PushNotification = () => {
                             <h6>Push notification</h6>
                         </div>
                         <div className='notification'>
-                            <div className='notification1'>
+                            <div className='notification1' onClick={()=>navigate('/notifications')}>
                                 <p>Notification List</p>
                             </div>
                         </div>
@@ -68,9 +68,35 @@ const PushNotification = () => {
                             <div className='notification4'>
                                 <label htmlFor="">Notification Banner</label>
                                 <div className='notification5'>
-                                    <LuUpload  size={50} color='#7F898B'/>
+                                    <LuUpload size={50} color='#7F898B' />
                                     <p>upload notification banner image</p>
                                 </div>
+                            </div>
+                            <div className='notification6'>
+                                <div className='notification4'>
+                                    <label htmlFor="">Publish date</label>
+                                    <input type="date" />
+                                </div>
+                                <div className='notification4'>
+                                    <label htmlFor="">Publish End</label>
+                                    <input type="date" />
+                                </div>
+                            </div>
+                            <div className='notification7'>
+                                <label htmlFor="">Select Ad Panel</label>
+                                <div className='notification8'>
+                                    <input type="radio" />
+                                    <label htmlFor="">Shopkeeper</label>
+                                </div>
+                                <div className='notification8'>
+                                    <input type="radio" />
+                                    <label htmlFor="">Customer Application</label>
+                                </div>
+                            </div>
+
+
+                            <div className='notification9'>
+                                <button>Add Notification</button>
                             </div>
                         </div>
                     </div>

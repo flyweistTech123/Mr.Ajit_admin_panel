@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import './KYC.css'
 import HOC from '../../Components/HOC/HOC'
 import { useNavigate } from 'react-router-dom';
-
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosSearch } from "react-icons/io";
 import { MdRemoveRedEye } from "react-icons/md";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const KYC = () => {
@@ -26,7 +29,7 @@ const KYC = () => {
             shopname: "JJ Comm.",
             ownerName: "John Doe",
             mobile: "+91 82456 25862",
-            KYCStatus: 'Pending',
+            KYCStatus: 'verified',
             PaymentStatus: "Unpaid"
         },
         {
@@ -44,16 +47,27 @@ const KYC = () => {
             shopname: "JJ Comm.",
             ownerName: "John Doe",
             mobile: "+91 82456 25862",
-            KYCStatus: 'Pending',
+            KYCStatus: 'verified',
             PaymentStatus: "Unpaid"
         }
     ]
+
+
+    const renderTooltip = (props) => (
+        <Tooltip id="button-tooltip" {...props} >
+            <div className='kyc7'>
+                <p>Your Aadhaar Is not Link your Bank Account !</p>
+            </div>
+        </Tooltip>
+    );
+
+
     return (
         <>
             <div className='totalusers'>
                 <div className='totalusers1'>
                     <div className='totalusers2'>
-                        <div className='totalusers3'>
+                        <div className='totalusers3' onClick={() => navigate('/createid')}>
                             <h6>Create ID</h6>
                         </div>
                     </div>
@@ -99,11 +113,19 @@ const KYC = () => {
                                             <td>{data.ownerName}</td>
                                             <td>{data.mobile}</td>
                                             <td>
+
                                                 <div className='kyc'>
-                                                    <div className='kyc1' style={{ backgroundColor: data.KYCStatus === 'Pending' ? '#E57676' : data.KYCStatus === 'appvoed' ? '#00B69B' : 'transparent' }}>
-                                                        {data.KYCStatus}
-                                                    </div>
+                                                    <OverlayTrigger
+                                                        placement="top"
+                                                        delay={{ show: 250, hide: 400 }}
+                                                        overlay={renderTooltip}
+                                                    >
+                                                        <div className='kyc1' style={{ backgroundColor: data.KYCStatus === 'Pending' ? '#E57676' : data.KYCStatus === 'verified' ? '#00B69B' : 'transparent' }}>
+                                                            {data.KYCStatus}
+                                                        </div>
+                                                    </OverlayTrigger>
                                                 </div>
+
                                             </td>
                                             <td>
                                                 <div className='kyc' >
@@ -112,13 +134,15 @@ const KYC = () => {
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td className='totalusers11'><MdRemoveRedEye color='#1C1B1F' size={20}   onClick={()=>navigate('/kycdetails')}/></td>
+                                            <td className='totalusers11'><MdRemoveRedEye color='#1C1B1F' size={20} onClick={() => navigate('/kycdetails')} /></td>
                                         </tr>
                                     ))}
                                 </tbody>
                             </table>
                         </div>
                     </div>
+
+
 
                 </div>
             </div >

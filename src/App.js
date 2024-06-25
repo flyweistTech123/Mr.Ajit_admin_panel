@@ -19,6 +19,9 @@ import Walletmamagement from './Pages/Wallet/Walletmamagement';
 import Shopkeeperreportdetails from './Pages/Shopkeeper Report/Shopkeeperreportdetails';
 import FraudUserDetail from './Pages/Fraud Customer/FraudUserDetail';
 import PushNotification from './Pages/Push Notification/PushNotification';
+import CreateID from './Pages/KYC/CreateID';
+import ProfileUpdate from './Pages/profile Update/ProfileUpdate';
+
 
 
 function App() {
@@ -45,6 +48,8 @@ function App() {
           <Route path="/wallet_mamagement" element={<Walletmamagement />} />
           <Route path="/shopkeeper_report_details" element={<Shopkeeperreportdetails />} />
           <Route path="/frauduser_Detail" element={<FraudUserDetail />} />
+          <Route path="/createid" element={<CreateID />} />
+          <Route path="/profile" element={<ProfileUpdate />} />
         </Routes>
       </Router>
     </>

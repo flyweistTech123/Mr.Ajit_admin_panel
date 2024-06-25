@@ -2,7 +2,9 @@ import React from 'react'
 import './Payment.css'
 import HOC from '../../Components/HOC/HOC'
 import { useNavigate } from 'react-router-dom';
-
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosSearch } from "react-icons/io";
 import { MdRemoveRedEye } from "react-icons/md";
@@ -48,6 +50,14 @@ const Payment = () => {
             PayMode: "Online Net Banking"
         }
     ]
+
+    const renderTooltip = (props) => (
+        <Tooltip id="button-tooltip" {...props} >
+            <div className='kyc7'>
+                <p>Bank Server Issue !</p>
+            </div>
+        </Tooltip>
+    );
     return (
         <>
             <div className='totalusers'>
@@ -94,9 +104,15 @@ const Payment = () => {
                                             <td>{data.Amount}</td>
                                             <td>
                                                 <div className='kyc'>
-                                                    <div className='kyc1' style={{ backgroundColor: data.Payment === 'Paid' ? '#00B69B' : data.Payment === 'Failed' ? '#FFCB6A' : '#E57676' }}>
-                                                        {data.Payment}
-                                                    </div>
+                                                    <OverlayTrigger
+                                                        placement="top"
+                                                        delay={{ show: 250, hide: 400 }}
+                                                        overlay={renderTooltip}
+                                                    >
+                                                        <div className='kyc1' style={{ backgroundColor: data.Payment === 'Paid' ? '#00B69B' : data.Payment === 'Failed' ? '#FFCB6A' : '#E57676' }}>
+                                                            {data.Payment}
+                                                        </div>
+                                                    </OverlayTrigger>
                                                 </div>
                                             </td>
                                             <td>{data.PayMode}</td>

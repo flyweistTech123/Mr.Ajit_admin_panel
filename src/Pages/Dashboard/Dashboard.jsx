@@ -226,7 +226,7 @@ const Dashboard = () => {
                             <ReactApexChart options={options} series={series} type="bar" height={350} />
                         </div>
                     </div>
-                    <div className='dashboard6'>
+                    <div className='dashboard6' >
                         <div className='dashboard7'>
                             <h3>Payment Report</h3>
                             <div className='dashboard8'>
@@ -236,7 +236,7 @@ const Dashboard = () => {
                             </div>
                         </div>
 
-                        <div className='dashboard9'>
+                        <div className='dashboard9' onClick={()=>navigate('/payment')}>
                             <ReactApexChart options={options1} series={[series1, series2, series3]} type="line" height={350} />
                         </div>
                     </div>

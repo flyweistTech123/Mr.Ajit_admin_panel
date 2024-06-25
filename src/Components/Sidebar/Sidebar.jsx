@@ -11,6 +11,7 @@ import { PiUsersThreeBold } from "react-icons/pi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { TbIndentDecrease } from 'react-icons/tb';
+import { IoMdLogOut } from "react-icons/io";
 
 
 
@@ -85,6 +86,17 @@ const Sidebar = ({ toggleSidebar }) => {
                             </div>
                         </NavLink>
                     ))}
+
+                    <NavLink
+                        to='/'
+                        className="sidebar-link11"
+                        activeClassName="active"
+                    >
+                        <div className='sidebar22'>
+                            <span><IoMdLogOut size={23} color='#F44336' /></span>
+                            <p>Logout</p>
+                        </div>
+                    </NavLink>
 
                 </div>
             </div>

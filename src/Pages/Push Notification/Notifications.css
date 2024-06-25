@@ -22,19 +22,29 @@
     margin: 0;
 }
 
+.notification2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.notification3{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 .notification4{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
 }
 
 
 .notification4 label{
     font-family: "Mulish", sans-serif;
-    font-size: 19.78px;
-    font-weight: 700;
+    font-size: 17.78px;
+    font-weight: 600;
     line-height: 24.83px;
     color: #7F898B;
     margin: 0;
@@ -82,4 +92,61 @@
     line-height: 24.83px;
     color: #7F898B;
     margin: 0;
+}
+
+
+
+.notification6{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+
+
+.notification7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.notification7 label{
+    font-family: "Public Sans", sans-serif;
+    font-size: 17.78px;
+    font-weight: 600;
+    line-height: 24.83px;
+    color: #7F898B;
+    margin: 0;
+}
+
+
+.notification8{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.notification9{
+
+}
+
+
+.notification9 button{
+    width: 100%;
+    height: auto;
+    padding: 5px 12px 5px 12px;
+    border-radius: 4px;
+    background: #FEBF05;
+    border: 1px solid #FEBF05;
+    outline: none;
+    font-family: "Public Sans", sans-serif;
+    font-size: 17.78px;
+    font-weight: 600;
+    line-height: 24.83px;
+    color: #FFFFFF;
+    margin: 0;
+    cursor: pointer;
 }

@@ -1,0 +1,121 @@
+.profileupdate{
+    width: 90%;
+    margin: auto;
+}
+
+
+.profileupdate1{
+    margin-top: 80px;
+}
+
+.profileupdate2 {
+  display: flex;
+}
+
+.profileupdate3 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 58px;
+}
+
+.profileupdate3 label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin: 0;
+}
+
+.profileupdate3 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #4D4E50;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+
+
+.profileupdate4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    flex: 1;
+}
+
+.profileupdate4 input{
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    outline: none;
+    padding-left: 15px;
+}
+
+
+.profileupdate5{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.profileupdate6{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+
+
+.profileupdate8{
+    width: auto;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    cursor: pointer;
+}
+
+
+.profileupdate9{
+    width: auto;
+    height: 70px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px dashed #4D4E50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileupdate9 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #4D4E50;
+    margin: 0;
+}
+
+.profileupdate9 span{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #4D4E50;
+    margin: 0;
+    text-decoration: underline;
+}
