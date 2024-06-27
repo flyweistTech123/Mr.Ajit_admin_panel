@@ -1,0 +1,54 @@
+MOM of Ginno devi admin penel (25-06-24)
+
+->The quick coin name change into quick points.
+->The admin should give the access to the sub admins.
+->In User list the filter should add basis of name, email, mobile number and userid.
+->In user list the location show of user.
+->The referal point list by clicking on dashboard referal point box.
+->add the feature to apprive the kyc of user and host.
+->In dashboard the total sharing car box click to navigate to driver list.
+->In driver list the joining date will show.
+->In host , user and driver profile should be editable from admin and the profile will open to see the details.
+->In driver profile show the total rides that driver done.
+->add the key in booking list pickup and drop time and pickup and drop location.
+->In profile of user,driver and host show the documents.
+->In user profile the booking history show.
+->The discount should add basis of quick point.
+->Show the faqs on the section vise like for host different and user for different.
+->In all report list the earning show.
+->The the quick point on the type new user and level vise.
+->The contact us notification show in admin panel.
+->The payment show on the basis of three request add fund, withdraw and transfer and the admin should sent the money user to and these information with user bank details
+->Add the privacy policy create , delete, update and show.
+->show the feedback list of users.
+->The sapport calling number should change from admin on the basis of different reason for different numbers.
+->The banner list also show with CURD options.
+->The product also add from admin panel for host application these products is for selling like gps tracker.
+
+
+### Minutes of Meeting (MOM) - Ginno Devi Admin Panel (25-06-24)
+
+- The quick coin name will be changed to quick points.
+- The admin should give access to the sub-admins.
+- In the user list, add filters based on name, email, mobile number, and user ID.
+- Display the user's location in the user list.
+- Enable viewing the referral point list by clicking on the dashboard referral point box.
+- Add the feature to approve the KYC of users and hosts.
+- In the dashboard, make the total sharing car box clickable to navigate to the driver list.
+- Show the joining date in the driver list.
+- The profiles of hosts, users, and drivers should be editable by the admin, and their profiles should open to see the details.
+- Display the total rides completed by the driver in the driver profile.
+- Add the keys for pickup and drop time, and pickup and drop location in the booking list.
+- Display documents in the profiles of users, drivers, and hosts.
+- Show booking history in the user profile.
+- Add discounts based on quick points.
+- Display FAQs in sections: different for hosts and users.
+- Show earnings in all report lists.
+- Display quick points for new users and by levels.
+- Show contact us notifications in the admin panel.
+- Display payments based on three requests: add fund, withdraw, and transfer. Admin should send money to users and these transactions should include user bank details.
+- Add the ability to create, delete, update, and show the privacy policy.
+- Show the feedback list of users.
+- Allow the support calling number to be changed by the admin for different reasons with different numbers.
+- Display the banner list with CRUD (Create, Read, Update, Delete) options.
+- Allow the addition of products from the admin panel for the host application, such as GPS trackers for selling.
